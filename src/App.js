@@ -19,7 +19,7 @@ async function handleNotionLogin() {
     // https://api.notion.com/v1/oauth/authorize?client_id=397d1772-82fd-468b-9f1e-d6b940575770&response_type=code&owner=user&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2F
     window.location.replace(
         // `https://api.notion.com/v1/oauth/authorize?client_id=397d1772-82fd-468b-9f1e-d6b940575770&response_type=code&owner=user&redirect_uri=${NOTION_REDIRECT_URI}`
-`https://api.notion.com/v1/oauth/authorize?client_id=397d1772-82fd-468b-9f1e-d6b940575770&response_type=code&owner=user&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fnotion%2Fcallback`
+`https://api.notion.com/v1/oauth/authorize?client_id=397d1772-82fd-468b-9f1e-d6b940575770&response_type=code&owner=user&redirect_uri=http%3A%2F%2Fauth-with-react.pages.dev%2Fnotion%2Fcallback`
     );
 }
 
